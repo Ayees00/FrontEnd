@@ -1,0 +1,187 @@
+.box{
+    margin: 50px auto;
+    border: 2px solid rgb(255, 210, 62);
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+}
+.input{
+    outline: none;
+    height: 35px;
+    width: 85%;
+    border-radius: 40px;
+    border: 0;
+}
+.src{
+    background: transparent;
+    outline: none;
+    border: 0;
+    padding-left: 10px;
+}
+.box:hover{
+    background-color: orange;
+}
+.account-box{
+    padding-top: 6px;
+    color: black 1px solid;
+}
+.btn-educator{
+    color: black;
+}
+.btn-educator:hover{
+    color: orange;
+}
+hr{
+    color: rgb(161, 161, 172);
+}
+h5{
+    padding-top: 12px;
+}
+.card{
+    background: transparent;
+}
+.materi{
+    font-size: 15px;
+}
+#barang tr th :hover {
+    background-color: rgb(233, 226, 186);
+  }
+th, td{
+    font-size: 13px;
+}
+.pg{
+    
+    
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 20px 10px 0 0;
+    border-radius: 50%;
+}
+
+.mt-2{
+    border: 1px solid black;
+}
+.mt-2 th, .mt-2 td{
+    border: 1px solid black;
+  padding: 4px;
+}
+.mt-2 th{
+    text-align: center;
+}
+.mt-2 td{
+    font-size: 9px;
+}
+.dummy{
+    border: 1px solid black;
+}
+.dummy th, .dummy td{
+    border: 1px solid black;
+    padding: 4px;
+}
+.dummy th{
+    text-align: center;
+}
+
+/* DropDown */
+/* #barang td{
+    font-size: 10px;
+} */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+
+}
+.container mt-3{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+
+.accordion-item{
+    background-color: rgb(255, 186, 59);
+    border-radius: .5rem;
+    margin-bottom: .1rem;
+    padding:  1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,.1) ;
+}
+
+.accordion-link{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    background-color: rgb(252, 175, 33);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link ion-icon{ 
+    color: #150130;
+    padding: 1rem;
+}
+
+.accordion-link ion-icon[name=remove-outline]{
+    display: none;
+}
+
+.accordion-link table{
+    width: 90%;
+}
+
+.accordion-link .total{
+    width: 90%;
+    padding: 2px;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(255, 205, 111);
+    transition: max-height 650ms;
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .2rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer .sub{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.answer .sub table{
+    width: 100%;
+    
+}
+
+.answer .sub td{ 
+    padding: 2px;
+    font-size: 10px;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link ion-icon[name=add-outline]{
+    display: none;
+}
+
+.accordion-item:target .accordion-link ion-icon[name=remove-outline]{
+    display: block;
+}
